@@ -3,3 +3,5 @@ output
 venv
 .idea
 geckodriver.log
+__pycache__
+generated

@@ -2,6 +2,8 @@ import json
 import time
 import os
 
+import pdf_printer
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
@@ -176,3 +178,5 @@ if __name__ == '__main__':
     exporter.main_lernen(lerninhalt_input='Zellularautomaten')
     exporter.main_lernen(lerninhalt_input='Diskrete Simulation')
     exporter.main_lernen(lerninhalt_input='Verfahren der Schwarmintelligenz')
+
+    pdf_printer.print_all_cards()
