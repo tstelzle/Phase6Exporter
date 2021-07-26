@@ -78,7 +78,7 @@ def print_cards(card_file: str):
     file_name = print_html(card_file[:-5])
     output = 'generated/' + card_file[:-5] + '.pdf'
     options = {
-        'orientation': 'Landscape',
+        'orientation': 'Portrait',
         'title': card_file[:-5],
         'page-size': 'A4'
     }
